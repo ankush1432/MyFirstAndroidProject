@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "406379864640",
+    "project_id": "starke-global",
+    "storage_bucket": "starke-global.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406379864640:android:a04ee04e8ef115feec35a5",
+        "android_client_info": {
+          "package_name": "com.mobile.starkeglobal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406379864640-co6t9lgrjouib1p2055m84i6f5sfedej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.starkeglobal",
+            "certificate_hash": "3ddc30b84374a7c5342edce69306cde4ea196a16"
+          }
+        },
+        {
+          "client_id": "406379864640-dm0j70211uaila4rcv9dm9l7c1vi1pgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.starkeglobal",
+            "certificate_hash": "46cadefec377b036e2cfc55e7a3a2d9074d3e02e"
+          }
+        },
+        {
+          "client_id": "406379864640-1r3cq6opd4cqvd6a81lhio7ud0hd2oma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEVr2UVTj7ITmLC0NYcIpAYCuslu-qp74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406379864640-1r3cq6opd4cqvd6a81lhio7ud0hd2oma.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "406379864640-h877b02npj80vkf6bj1rk9ttkdg228q0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobile.Starkeglobal",
+                "app_store_id": "1586656436"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

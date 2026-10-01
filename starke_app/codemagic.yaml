@@ -1,0 +1,36 @@
+workflows:
+  ios-release:
+    name: Starke Global iOS Release
+
+    environment:
+      flutter: 3.41.9
+      xcode: 26.6
+      cocoapods: 1.16.2
+
+      ios_signing:
+        distribution_type: development
+        bundle_identifier: com.mobile.Starkeglobal
+    integrations:
+      app_store_connect: latest_ios_key
+
+    scripts:
+      - name: Get Flutter packages
+        script: |
+          flutter pub get
+
+      - name: Check app version
+        script: |
+          echo "===== APP VERSION ====="
+          grep '^version:' pubspec.yaml
+
+      - name: Build iOS IPA
+        script: |
+          flutter build ipa --release
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
